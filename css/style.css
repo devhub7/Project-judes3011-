@@ -1,0 +1,113 @@
+ /*base CSS*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5,h6 {
+    color:#F5954B;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+ /* Header Area Start
+  =========================*/
+.header_area {
+  background: rgba(0, 0, 0, 0) url("../img/bg.jpg") no-repeat scroll center center / cover ;
+  padding: 7% 0;
+  color:#000;
+}
+.header {
+  padding: 5% 0;
+}
+.header h1 {
+  font-weight: 700;
+}
+.header h3 {
+  color: #222;
+}
+
+ /* Content Area Start
+  =========================*/
+.content_area {
+  background: #fafafa none repeat scroll 0 0;
+  padding: 1% 0;
+}
+.content-content {
+    padding:3% 0;
+}
+.col-md-4.single-content.text-center {
+  padding-bottom: 2%;
+}
+.col-md-4.single-content.text-center > img {
+  width: 125px;
+}
+/*Content bottom Area Start
+  =========================*/
+.content_bottom_area h2 {
+  margin-bottom: 3%;
+  text-align: center;
+}
+.mentorship-left {
+  text-align: right;
+}
+.content_bottom_area {
+  padding: 5% 0;
+}
+.training-left img {
+  width: 100%;
+}
+.training {
+  margin-top: 5%;
+}
+/* Form Area Start
+  =========================*/
+.form_area{
+  background: #2d80e3 none repeat scroll 0 0;
+  color: #fff;
+  padding:3% 0;
+}
+.form_area h2 {
+  color: #fff;
+  font-weight: 700;
+}
+.form-group input[type="text"], .form-group input[type="email"] {
+  margin-bottom: 10px;
+}
+.form-control {
+  color:#333;
+  padding:3% 2%;
+}
+form {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 5% 0;
+}
+.form_area button {
+  background-color: #24c564;
+  border: transparent;
+  font-weight: bold;
+}
+.form_area button:hover {
+  background-color: #3bdc7b;
+  border: transparent;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+ /* Footer Area Start
+ =========================*/
+.footer_area.text-center {
+  background: #152e41 none repeat scroll 0 0;
+  color: #fff;
+  padding: 2% 0;
+}
